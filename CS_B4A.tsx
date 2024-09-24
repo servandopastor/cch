@@ -7,13 +7,27 @@ import { Progress } from '@/components/ui/progress';
 const productosIniciales = [
   { nombre: "PAQUETES DE SEMOLA", cantidad: 3 },
   { nombre: "PAQUETES DE MAICENA", cantidad: 3 },
+  { nombre: "PAQUETES DE CARNE SOYA", cantidad: 3 },
+  { nombre: "PAQUETES DE TALLARINES", cantidad: 3 },
+  { nombre: "TARROS DE JUREL", cantidad: 3 },
   { nombre: "LITROS DE ACEITE", cantidad: 3 },
+  { nombre: "LITROS DE JABON LIQUIDO", cantidad: 3 },
+  { nombre: "COLONIAS INGLESAS", cantidad: 3 },
+  { nombre: "DESODORANTE EN ESPRAY DE HOMBRE Y MUJER", cantidad: 3 },
   { nombre: "LITROS DE SHAMPOO", cantidad: 3 },
+  { nombre: "PAÑALES DE ADULTO TALLA XG", cantidad: 3 },
 ];
 
 const familias = [
   "Aguirre Rozas", "Alvarado Canales", "Araos Veloso", "Araya Guzmán",
-  "Arriagada Menares", "Astudillo Vergara", "Basso Caamaño", "Bedoya Andrada"
+"Arriagada Menares", "Astudillo Vergara", "Basso Caamaño", "Bedoya Andrada",
+"Carcay Vergara", "Cisternas Aravena", "Córdova Rivera", "Duarte Noziglia",
+"Flores Callisto", "Fuentes Grimaldi", "Herrera Jara", "Lagos Ovando",
+"Leiva Pais", "Luengo Vivanco", "Martís Riquelme", "Molina Parra",
+"Núñez Zamora", "Pastor Ortega", "Pérez Araya", "Pino Cornejo",
+"Ramos Segovia", "Reyes Meneses", "Rissetto Apiolaza", "Saavedra Grez",
+"Salazar Andrada", "Salinas González", "Sánchez Díaz", "Torres Castro",
+"Valencia Castro", "Vega Valenzuela", "Vittone Gajardo", "Yaser Tejeda
 ];
 
 const CampañaSolidariaB4A = () => {
